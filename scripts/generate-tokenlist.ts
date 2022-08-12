@@ -9,10 +9,7 @@ import {
   MinimalTokenInfo,
   Network,
 } from "../src/types";
-import {
-  getExistingMetadata,
-  getMainnetAddress,
-} from "../src/metadata/overrides";
+
 import {
   isVersionUpdate,
   minVersionBump,
@@ -33,11 +30,7 @@ const fleekConfig: FleekConfig = {
 
 let network: Network = process.argv[2] as Network;
 if (network && !Object.values(Network).includes(network)) {
-  if (network.toString() === "mainnet") {
-    network = Network.Homestead;
-  } else {
-    throw new Error(`Invalid network: "${network}"`);
-  }
+  throw new Error(`Invalid network: "${network}"`);
 }
 
 run(network);
@@ -47,11 +40,7 @@ async function run(network?: Network) {
     if (network) {
       await buildNetworkLists(network);
     } else {
-      // await buildNetworkLists(Network.Homestead);
-      await buildNetworkLists(Network.Kovan);
-      await buildNetworkLists(Network.Goerli);
-      await buildNetworkLists(Network.Polygon);
-      await buildNetworkLists(Network.Arbitrum);
+      await buildNetworkLists(Network.Aurora);
     }
   } catch (e) {
     console.error(e);
@@ -93,14 +82,9 @@ async function buildListFromFile(
     // Most likely a new tokenlist which we haven't generated before
   }
 
-  const existingMetadata = await getExistingMetadata(
-    network,
-    currentTokenList?.tokens
-  );
   const listedTokens = await getTokens(
     onchainMetadata,
     {
-      ...existingMetadata,
       ...metadataOverwrite,
     },
     network
@@ -133,10 +117,9 @@ async function generate(
   const date = new Date(dayTimestamp);
   const timestamp = date.toISOString();
   const list = {
-    name: "Balancer",
+    name: "Polaris Dex",
     timestamp,
-    logoURI:
-      "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
+    logoURI: "https://polarisfinance.io/logo.png",
     keywords: ["balancer", name],
     version: newVersion,
     tokens: tokens.sort((a, b) => (a.name > b.name ? 1 : -1)),
@@ -171,12 +154,7 @@ async function getTokens(
       // wait for previous tokens to be queried
       const prev = await acc;
 
-      const token = await getTokenMetadata(
-        address,
-        tokenInfo,
-        metadataOverwrite[getAddress(getMainnetAddress(address))] ?? {},
-        network
-      );
+      const token = await getTokenMetadata(address, tokenInfo, {}, network);
 
       // Coingecko rate limits their API to 10 calls/second
       if (index > 0 && index % 10 === 0) {

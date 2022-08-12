@@ -8,19 +8,13 @@ const coingeckoClient = axios.create({
 });
 
 const platformIdMap: Record<Network, string> = {
-  [Network.Homestead]: "ethereum",
-  [Network.Kovan]: "ethereum",
-  [Network.Goerli]: "goerli",
-  [Network.Polygon]: "polygon-pos",
-  [Network.Arbitrum]: "arbitrum-one",
+  [Network.Aurora]: "aurora",
 };
 
 export const getCoingeckoMetadata = async (
   network: Network,
   address: string
 ): Promise<[string | null, Partial<TokenInfo>]> => {
-  if (network === Network.Kovan) return [null, {}];
-
   let data;
   try {
     const response = await coingeckoClient.get(
