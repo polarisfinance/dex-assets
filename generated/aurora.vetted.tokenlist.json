@@ -1,6 +1,6 @@
 {
     "name": "Polaris Dex",
-    "timestamp": "2022-08-13T00:00:00.000Z",
+    "timestamp": "2022-09-30T00:00:00.000Z",
     "logoURI": "https://polarisfinance.io/logo.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 0,
-        "minor": 3,
+        "minor": 5,
         "patch": 0
     },
     "tokens": [
@@ -19,6 +19,14 @@
             "symbol": "AURORA",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/20582/large/aurora.jpeg?1637250883"
+        },
+        {
+            "address": "0x07f9f7f963c5cd2bbffd30ccfb964be114332e30",
+            "chainId": 1313161554,
+            "name": "Staked NEAR",
+            "symbol": "STNEAR",
+            "decimals": 24,
+            "logoURI": "https://assets.coingecko.com/coins/images/24250/large/st-NEAR-token-white-dark-purple-circle.png?1657601407"
         },
         {
             "address": "0x07F9F7f963C5cD2BBFFd30CcfB964Be114332E30",
@@ -32,7 +40,7 @@
             "address": "0x4988a896b1227218e4A686fdE5EabdcAbd91571f",
             "chainId": 1313161554,
             "name": "Tether",
-            "symbol": "USDT",
+            "symbol": "USDT.e",
             "decimals": 6,
             "logoURI": "https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707"
         },
@@ -75,6 +83,22 @@
             "symbol": "NEAR",
             "decimals": 24,
             "logoURI": "https://assets.coingecko.com/coins/images/18280/large/EX4mrWMW_400x400.jpg?1631244046"
+        },
+        {
+            "address": "0x990e50E781004EA75e2bA3A67eB69c0B1cD6e3A6",
+            "chainId": 1313161554,
+            "name": "pNEAR",
+            "symbol": "pNEAR",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/18280/large/EX4mrWMW_400x400.jpg?1631244046"
+        },
+        {
+            "address": "0xFbE0Ec68483c0B0a9D4bCea3CCf33922225B8465",
+            "chainId": 1313161554,
+            "name": "pSTNEAR",
+            "symbol": "pSTNEAR",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/24250/large/st-NEAR-token-white-dark-purple-circle.png?1657601407"
         }
     ]
 }

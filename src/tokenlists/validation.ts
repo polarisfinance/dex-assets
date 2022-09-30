@@ -17,7 +17,7 @@ const validateToken = (token: TokenInfo): boolean => {
   if (!token.symbol) return false;
   if (!token.decimals) return false;
   // Enforce that we have a logo for each token
-  if (!token.logoURI) return false;
+  //if (!token.logoURI) return false;
 
   // "(PoS)" is included in the names of tokens which are bridged to Polygon
   // We want to ensure that we strip these out.
