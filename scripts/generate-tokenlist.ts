@@ -157,9 +157,8 @@ async function getTokens(
       const token = await getTokenMetadata(address, tokenInfo, {}, network);
 
       // Coingecko rate limits their API to 10 calls/second
-      if (index > 0 && index % 10 === 0) {
-        await new Promise((resolve) => setTimeout(resolve, 2000));
-      }
+      // if (index > 0 && index % 50 === 0) {
+      await new Promise((resolve) => setTimeout(resolve, 1200));
 
       return Promise.all([...prev, token]);
     },
@@ -202,6 +201,7 @@ async function getTokenMetadata(
   const symbol =
     metadataOverwrite.symbol ?? onchainMetadata.symbol ?? coingeckoMeta.symbol;
   const decimals = onchainMetadata.decimals;
+  console.log(metadataOverwrite.logoURI);
   const logoURI = metadataOverwrite.logoURI ?? coingeckoMeta.logoURI;
 
   return {
