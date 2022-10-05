@@ -158,7 +158,7 @@ async function getTokens(
 
       // Coingecko rate limits their API to 10 calls/second
       // if (index > 0 && index % 50 === 0) {
-      await new Promise((resolve) => setTimeout(resolve, 1200));
+      await new Promise((resolve) => setTimeout(resolve, 1800));
 
       return Promise.all([...prev, token]);
     },
