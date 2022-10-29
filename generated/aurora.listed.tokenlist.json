@@ -23,14 +23,14 @@
         {
             "address": "0xafE0d6ca6AAbB43CDA024895D203120831Ba0370",
             "chainId": 1313161554,
-            "name": "BINARIS",
+            "name": "Polaris Finance Binaris",
             "symbol": "BINARIS",
             "decimals": 18
         },
         {
             "address": "0x17cbd9C274e90C537790C51b4015a65cD015497e",
             "chainId": 1313161554,
-            "name": "Ethernal",
+            "name": "Polaris Finance Ethernal",
             "symbol": "ETHERNAL",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/25594/large/ethernal-200px.png?1652772259"
@@ -38,7 +38,7 @@
         {
             "address": "0x9D6fc90b25976E40adaD5A3EdD08af9ed7a21729",
             "chainId": 1313161554,
-            "name": "Polar Shares",
+            "name": "Polaris Finance Shares",
             "symbol": "SPOLAR",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/23673/large/spolar-200px.png?1644994847"
@@ -94,7 +94,7 @@
         {
             "address": "0xa69d9Ba086D41425f35988613c156Db9a88a1A96",
             "chainId": 1313161554,
-            "name": "USP",
+            "name": "Polaris Finance USP",
             "symbol": "USP",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/26322/large/usp-200px.png?1657245772"
@@ -102,7 +102,7 @@
         {
             "address": "0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB",
             "chainId": 1313161554,
-            "name": "WETH",
+            "name": "Wrapped Ether",
             "symbol": "WETH",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/2518/large/weth.png?1628852295"
@@ -118,7 +118,7 @@
         {
             "address": "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d",
             "chainId": 1313161554,
-            "name": "Wrapped Near",
+            "name": "Wrapped NEAR",
             "symbol": "NEAR",
             "decimals": 24,
             "logoURI": "https://assets.coingecko.com/coins/images/18280/large/EX4mrWMW_400x400.jpg?1631244046"
@@ -126,7 +126,7 @@
         {
             "address": "0x990e50E781004EA75e2bA3A67eB69c0B1cD6e3A6",
             "chainId": 1313161554,
-            "name": "pNEAR",
+            "name": "Polaris Wrapped NEAR",
             "symbol": "pNEAR",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/18280/large/EX4mrWMW_400x400.jpg?1631244046"
@@ -134,10 +134,26 @@
         {
             "address": "0xFbE0Ec68483c0B0a9D4bCea3CCf33922225B8465",
             "chainId": 1313161554,
-            "name": "pSTNEAR",
+            "name": "Polaris Wrapped Staked NEAR",
             "symbol": "pSTNEAR",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/24250/large/st-NEAR-token-white-dark-purple-circle.png?1657601407"
+        },
+        {
+            "address": "0xb14674c7264ec7d948b904aab2c0e0f906f6e762",
+            "chainId": 1313161554,
+            "name": "Allbridge Binance Coin",
+            "symbol": "abBNB",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trisolaris-labs/tokens/master/assets/0xb14674c7264ec7d948b904aab2c0e0f906f6e762/logo.svg"
+        },
+        {
+            "address": "0xafE0d6ca6AAbB43CDA024895D203120831Ba0370",
+            "chainId": 1313161554,
+            "name": "Polaris Finance Binaris",
+            "symbol": "BINARIS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xafE0d6ca6AAbB43CDA024895D203120831Ba0370"
         }
     ]
 }
