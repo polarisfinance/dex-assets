@@ -21,13 +21,6 @@
             "logoURI": "https://assets.coingecko.com/coins/images/20582/large/aurora.jpeg?1637250883"
         },
         {
-            "address": "0xafE0d6ca6AAbB43CDA024895D203120831Ba0370",
-            "chainId": 1313161554,
-            "name": "Polaris Finance Binaris",
-            "symbol": "BINARIS",
-            "decimals": 18
-        },
-        {
             "address": "0x17cbd9C274e90C537790C51b4015a65cD015497e",
             "chainId": 1313161554,
             "name": "Polaris Finance Ethernal",
