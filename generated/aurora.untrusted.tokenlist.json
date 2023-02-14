@@ -67,7 +67,7 @@
     },
     {
       "address": "0xa80b2AD8Aaf625F6AA8134f292DcA53fA4df527B",
-      "chainId": 1313161554,
+      "chainId": 1313161555,
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
@@ -91,7 +91,7 @@
     },
     {
       "address": "0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB",
-      "chainId": 1313161554,
+      "chainId": 1313161555,
       "name": "Wrapped Ether",
       "symbol": "WETH",
       "decimals": 18,
