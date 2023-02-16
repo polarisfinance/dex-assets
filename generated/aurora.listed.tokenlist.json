@@ -98,8 +98,8 @@
       "logoURI": "https://assets.coingecko.com/coins/images/2518/large/weth.png?1628852295"
     },
     {
-      "address": "0xF4eB217Ba2454613b15dBdea6e5f22276410e89e",
-      "chainId": 1313161554,
+      "address": "0x5749c1374cc9DE28B94cf054dEb303D4cA3464bF",
+      "chainId": 1313161555,
       "name": "Wrapped Bitcoin",
       "symbol": "WBTC",
       "decimals": 8,
