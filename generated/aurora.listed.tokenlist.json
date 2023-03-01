@@ -10,84 +10,12 @@
   },
   "tokens": [
     {
-      "address": "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
-      "chainId": 1313161554,
-      "name": "Aurora",
-      "symbol": "AURORA",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/20582/large/aurora.jpeg?1637250883"
-    },
-    {
-      "address": "0x17cbd9C274e90C537790C51b4015a65cD015497e",
-      "chainId": 1313161554,
-      "name": "Polaris Finance Ethernal",
-      "symbol": "ETHERNAL",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0x17cbd9C274e90C537790C51b4015a65cD015497e.svg"
-    },
-    {
-      "address": "0x9D6fc90b25976E40adaD5A3EdD08af9ed7a21729",
-      "chainId": 1313161554,
-      "name": "Polaris Finance Shares",
-      "symbol": "SPOLAR",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23673/large/spolar-200px.png?1644994847"
-    },
-    {
-      "address": "0x3AC55eA8D2082fAbda674270cD2367dA96092889",
-      "chainId": 1313161554,
-      "name": "Polaris Finance Orbital",
-      "symbol": "ORBITAL",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0x3AC55eA8D2082fAbda674270cD2367dA96092889.svg"
-    },
-    {
-      "address": "0xf0f3b9Eee32b1F490A4b8720cf6F005d4aE9eA86",
-      "chainId": 1313161554,
-      "name": "Polaris Finance Polar",
-      "symbol": "POLAR",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xf0f3b9Eee32b1F490A4b8720cf6F005d4aE9eA86.svg"
-    },
-    {
-      "address": "0x07F9F7f963C5cD2BBFFd30CcfB964Be114332E30",
-      "chainId": 1313161554,
-      "name": "Staked NEAR",
-      "symbol": "STNEAR",
-      "decimals": 24,
-      "logoURI": "https://assets.coingecko.com/coins/images/24250/large/st-NEAR-token-white-dark-purple-circle.png?1657601407"
-    },
-    {
-      "address": "0x4988a896b1227218e4A686fdE5EabdcAbd91571f",
-      "chainId": 1313161554,
-      "name": "Tether",
-      "symbol": "USDT.e",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707"
-    },
-    {
       "address": "0xa80b2ad8aaf625f6aa8134f292dca53fa4df527b",
       "chainId": 1313161555,
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389"
-    },
-    {
-      "address": "0x5183e1B1091804BC2602586919E6880ac1cf2896",
-      "chainId": 1313161554,
-      "name": "USN",
-      "symbol": "USN",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24930/large/download.png?1649395750"
-    },
-    {
-      "address": "0xa69d9Ba086D41425f35988613c156Db9a88a1A96",
-      "chainId": 1313161554,
-      "name": "Polaris Finance USP",
-      "symbol": "USP",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xa69d9Ba086D41425f35988613c156Db9a88a1A96.svg"
     },
     {
       "address": "0x8886E7A8883e9A40b30Bd4E16e0e25C2C3f29Cd8",
@@ -104,94 +32,6 @@
       "symbol": "WBTC",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744"
-    },
-    {
-      "address": "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d",
-      "chainId": 1313161554,
-      "name": "Wrapped NEAR",
-      "symbol": "NEAR",
-      "decimals": 24,
-      "logoURI": "https://assets.coingecko.com/coins/images/18280/large/EX4mrWMW_400x400.jpg?1631244046"
-    },
-    {
-      "address": "0x990e50E781004EA75e2bA3A67eB69c0B1cD6e3A6",
-      "chainId": 1313161554,
-      "name": "Polaris Wrapped NEAR",
-      "symbol": "pNEAR",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18280/large/EX4mrWMW_400x400.jpg?1631244046"
-    },
-    {
-      "address": "0xFbE0Ec68483c0B0a9D4bCea3CCf33922225B8465",
-      "chainId": 1313161554,
-      "name": "Polaris Wrapped Staked NEAR",
-      "symbol": "pSTNEAR",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24250/large/st-NEAR-token-white-dark-purple-circle.png?1657601407"
-    },
-    {
-      "address": "0xb14674c7264ec7d948b904aab2c0e0f906f6e762",
-      "chainId": 1313161554,
-      "name": "Allbridge Binance Coin",
-      "symbol": "abBNB",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/trisolaris-labs/tokens/master/assets/0xb14674c7264ec7d948b904aab2c0e0f906f6e762/logo.svg"
-    },
-    {
-      "address": "0xafE0d6ca6AAbB43CDA024895D203120831Ba0370",
-      "chainId": 1313161554,
-      "name": "Polaris Finance Binaris",
-      "symbol": "BINARIS",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xafE0d6ca6AAbB43CDA024895D203120831Ba0370.svg"
-    },
-    {
-      "address": "0xeAf7665969f1DaA3726CEADa7c40Ab27B3245993",
-      "chainId": 1313161554,
-      "name": "Polaris Finance Xpolar",
-      "symbol": "XPOLAR",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xeAf7665969f1DaA3726CEADa7c40Ab27B3245993.png"
-    },
-    {
-      "address": "0x3a4773e600086A753862621A26a2E3274610da43",
-      "chainId": 1313161554,
-      "name": "Polaris Finance Pbond",
-      "symbol": "PBOND",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0x3a4773e600086A753862621A26a2E3274610da43.svg"
-    },
-    {
-      "address": "0x266437E6c7500A947012F19A3dE96a3881a0449E",
-      "chainId": 1313161554,
-      "name": "Polaris Finance Ebond",
-      "symbol": "EBOND",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0x266437E6c7500A947012F19A3dE96a3881a0449E.svg"
-    },
-    {
-      "address": "0x192bdcdd7b95A97eC66dE5630a85967F6B79e695",
-      "chainId": 1313161554,
-      "name": "Polaris Finance Obond",
-      "symbol": "OBOND",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0x192bdcdd7b95A97eC66dE5630a85967F6B79e695.svg"
-    },
-    {
-      "address": "0xcE32b28c19C61B19823395730A0c7d91C671E54b",
-      "chainId": 1313161554,
-      "name": "Polaris Finance USPbond",
-      "symbol": "USPBOND",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xcE32b28c19C61B19823395730A0c7d91C671E54b.svg"
-    },
-    {
-      "address": "0xfa32616447C51F056Db97BC1d0E2D4C0c4D059C9",
-      "chainId": 1313161554,
-      "name": "Polaris Finance Bbond",
-      "symbol": "BBOND",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xfa32616447C51F056Db97BC1d0E2D4C0c4D059C9.svg"
     }
   ]
 }
