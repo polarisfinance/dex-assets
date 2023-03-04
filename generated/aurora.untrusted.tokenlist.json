@@ -32,6 +32,30 @@
       "symbol": "WBTC",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744"
+    },
+    {
+      "address": "0x2a2D92144dacF14Ac6625d3e0a79Fa8FD6C2a3fe",
+      "chainId": 1313161555,
+      "name": "SPOLAR",
+      "symbol": "SPOLAR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23673/large/spolar-200px.png?1644994847"
+    },
+    {
+      "address": "0x9ced3b4e4dc978265484d1f1f569010e13f911c9",
+      "chainId": 1313161555,
+      "name": "XPOLAR",
+      "symbol": "XPOLAR",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xeAf7665969f1DaA3726CEADa7c40Ab27B3245993.png"
+    },
+    {
+      "address": "0xf4A8b365cD410308d581574e35D412D82726a251",
+      "chainId": 1313161555,
+      "name": "pNEAR",
+      "symbol": "pNEAR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18280/large/EX4mrWMW_400x400.jpg?1631244046"
     }
   ]
 }
