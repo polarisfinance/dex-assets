@@ -1,7 +1,7 @@
 {
   "name": "Polaris Dex",
   "timestamp": "2022-10-05T00:00:00.000Z",
-  "logoURI": "https://polarisfinance.io/logo.png",
+  "logoURI": "https://old.polarisfinance.io/logo.png",
   "keywords": ["balancer", "listed"],
   "version": {
     "major": 4,
