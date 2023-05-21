@@ -1,7 +1,7 @@
 {
   "name": "Polaris Dex",
   "timestamp": "2022-10-05T00:00:00.000Z",
-  "logoURI": "https://old.polarisfinance.io/logo.png",
+  "logoURI": "https://polarisfinance.io/logo.png",
   "keywords": ["balancer", "listed"],
   "version": {
     "major": 4,
@@ -192,6 +192,22 @@
       "symbol": "BBOND",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xfa32616447C51F056Db97BC1d0E2D4C0c4D059C9.svg"
+    },
+    {
+      "address": "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844",
+      "chainId": 1313161554,
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/avalanche-avax-logo.svg?v=025"
+    },
+    {
+      "address": "0x0f00576d07B594Bdc1caf44b6014A6A02E5AFd48",
+      "chainId": 1313161554,
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/solana-sol-logo.svg?v=025"
     }
   ]
 }
