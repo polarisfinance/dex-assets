@@ -208,6 +208,14 @@
       "symbol": "SOL",
       "decimals": 18,
       "logoURI": "https://cryptologos.cc/logos/solana-sol-logo.svg?v=025"
+    },
+    {
+      "address": "0x1fE622E91e54D6AD00B01917351Ea6081426764A",
+      "chainId": 1313161554,
+      "name": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/fantom-ftm-logo.svg?v=025"
     }
   ]
 }
