@@ -224,6 +224,14 @@
       "symbol": "Avax",
       "decimals": 18,
       "logoURI": "https://cryptologos.cc/logos/avalanche-avax-logo.svg?v=025"
+    },
+    {
+      "address": "0xc21Ff01229e982d7c8b8691163B0A3Cb8F357453",
+      "chainId": 1313161554,
+      "name": "Meta Token",
+      "symbol": "META",
+      "decimals": 24,
+      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xc21Ff01229e982d7c8b8691163B0A3Cb8F357453.svg"
     }
   ]
 }
