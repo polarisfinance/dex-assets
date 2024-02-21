@@ -308,6 +308,17 @@
       "tags": ["telosevm"]
     },
     {
+      "chainId": 1313161554,
+      "address": "0x3b73F4336a33eE36106Bb5C6d697192391db740F",
+      "symbol": "TLOS",
+      "name": "TLOS",
+      "coingeckoId": "telos",
+      "cmcId": 4660,
+      "logoURI": "https://raw.githubusercontent.com/telosnetwork/token-list/main/logos/wtlos.png",
+      "decimals": 18,
+      "tags": ["telosevm"]
+    },
+    {
       "chainId": 40,
       "address": "0x1073E53ac92F711761475Cd30fab157620AFdAb0",
       "symbol": "XPOLAR",
