@@ -69,6 +69,22 @@
       "address": "0xB12BFcA5A55806AaF64E99521918A4bf0fC40802",
       "chainId": 1313161554,
       "name": "USD Coin",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389"
+    },
+    {
+      "address": "0x80da25da4d783e57d2fcda0436873a193a4beccf",
+      "chainId": 1313161554,
+      "name": "Tether",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707"
+    },
+    {
+      "address": "0x368ebb46aca6b8d0787c96b2b20bd3cc3f2c45f7",
+      "chainId": 1313161554,
+      "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389"
