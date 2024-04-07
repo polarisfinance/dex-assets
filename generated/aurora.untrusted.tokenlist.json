@@ -250,6 +250,13 @@
       "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xc21Ff01229e982d7c8b8691163B0A3Cb8F357453.svg"
     },
     {
+      "address": "0xb427111143052b6856aaf2a65c9b44191167e4b6",
+      "chainId": 1313161554,
+      "name": "Usd Stable Pool",
+      "symbol": "UsdStablePool",
+      "decimals": 18
+    },
+    {
       "chainId": 40,
       "address": "0x8D97Cea50351Fb4329d591682b148D43a0C3611b",
       "symbol": "USDC",
