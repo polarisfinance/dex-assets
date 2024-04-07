@@ -254,7 +254,8 @@
       "chainId": 1313161554,
       "name": "Usd Stable Pool",
       "symbol": "UsdStablePool",
-      "decimals": 18
+      "decimals": 18,
+      "logoURI": ""
     },
     {
       "chainId": 40,
