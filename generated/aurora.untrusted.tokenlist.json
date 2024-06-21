@@ -258,6 +258,14 @@
       "logoURI": ""
     },
     {
+      "address": "0xBfB55273488Fda258fda2224A5CB117Efd01951e",
+      "chainId": 40,
+      "name": "Usd Stable Pool",
+      "symbol": "UsdStablePool",
+      "decimals": 18,
+      "logoURI": ""
+    },
+    {
       "chainId": 40,
       "address": "0x8D97Cea50351Fb4329d591682b148D43a0C3611b",
       "symbol": "USDC",
