@@ -373,6 +373,62 @@
       "logoURI": "https://raw.githubusercontent.com/elkfinance/tokens/main/logos/ftm/0xD67de0e0a0Fd7b15dC8348Bb9BE742F3c5850454/logo.png",
       "decimals": 18,
       "tags": ["telosevm"]
+    },
+    {
+      "address": "0xA9d23408b9bA935c230493c40C73824Df71A0975",
+      "chainId": 167000,
+      "name": "Taiko",
+      "symbol": "TAIKO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/38058/standard/icon.png?1717626867"
+    },
+    {
+      "address": "0xA51894664A773981C6C112C43ce576f315d5b1B6",
+      "chainId": 167000,
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/2518/large/weth.png?1628852295"
+    },
+    {
+      "address": "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b",
+      "chainId": 167000,
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389"
+    },
+    {
+      "address": "0x19e26B0638bf63aa9fa4d14c6baF8D52eBE86C5C",
+      "chainId": 167000,
+      "name": "Bridged USDC (Stargate)",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389"
+    },
+    {
+      "address": "0x2DEF195713CF4a606B49D07E520e22C17899a736",
+      "chainId": 167000,
+      "name": "USDT",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707"
+    },
+    {
+      "address": "0x9c2dc7377717603eB92b2655c5f2E7997a4945BD",
+      "chainId": 167000,
+      "name": "Bridged USDT (Stargate)",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707"
+    },
+    {
+      "address": "0x5fc798A5072CD551b8bB5C51416078bc95499d2B",
+      "chainId": 167000,
+      "name": "XPOLAR",
+      "symbol": "XPOLAR",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/polarisfinance/dex-assets/main/assets/0xeAf7665969f1DaA3726CEADa7c40Ab27B3245993.png"
     }
   ]
 }
